@@ -1,0 +1,760 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-weight: normal;
+    font-family: gentona;
+    src: url(https://fontsgeek.com/fonts/gentona);
+}
+.header{
+    width: 100%;
+    margin: 0%;
+    margin-top: 0%;
+    padding-top: 0px;   
+    position: fixed;
+    z-index: 2;
+    overflow-y: hidden;
+}
+body{
+    margin: 0%; 
+    overflow-x: hidden;
+    font-family: gentona;
+    src: url(https://fontsgeek.com/fonts/gentona); 
+}
+.headercontent {
+    color: rgb(210, 213, 221);
+    font-size: 14px;
+    word-break: normal;
+    word-spacing: 2px;
+    display: flex;
+    text-align: center;
+    padding-left: 0%;
+}
+.headercontent li{
+    padding-left: 10px;
+    display:inline;
+    text-align: center;
+    margin-top: 4px; 
+}
+.headercontent a{
+    color: #fff;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: green;
+}
+h6.hover{
+    color: green;
+}
+.headertop{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    margin-top: 0%;
+}
+.list1{
+    width: 700px;
+    float: right;
+    margin-right: 65px;
+    text-align: center;
+    text-decoration: none;
+}
+.headerdown{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    overflow-y: hidden;
+
+}
+.logo{
+    width: 50px;
+    float: left;
+}
+.leftsticky{
+    margin-left: 200px;
+    padding-top: 20px;    
+}
+.leftsticky a{
+    color: black;
+}
+.sticky{
+    width: 500px ;
+    height: 30px;
+    color: rgb(0, 0, 0);
+    text-align:right;
+    float: left;
+    margin-top: 4px;
+    margin-left: 20px;
+}
+.rightsticky{
+    width: 255px;
+    height:43px ;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin-left: 330px;
+    margin-top: 0px;
+    display: flex;
+}
+#fullmain{
+    height: 1060px;
+    width: 100%;
+    overflow-x: hidden;
+}
+.cab_book{
+    width: 125px;
+    height: 27px;
+    background-color: rgb(240, 246, 251);
+    font-size: 9px;
+    text-align: center;
+    margin-top: 4px;
+    padding-top:6px ;
+}
+.cab_book a{
+    color: black;
+}
+.test_ride{
+    background-color: black;
+    color: rgb(189, 198, 20);
+    width: 125px;
+    height: 27px;
+    position: absolute;
+    font-size: 9px;
+    font-weight:1%;
+    text-align: center;
+    margin-top: 4px;
+    padding-top:6px ;
+   margin-left: 130px;
+}
+.test_ride a,.offer_test_ride a{
+    color:#cddc39;
+}
+.imgbox{
+    width: 100%;
+    height:700px;
+    margin-right: 0%;
+    display: flex;
+    position: absolute;
+    margin-top: 100px;
+    text-align: center;
+    overflow-y: hidden;   
+}
+.imgbox img{
+    width: 100%;
+    position: absolute;
+    height: 596px;
+    height: fit-content;
+}
+#mainheading{
+    position:absolute;
+    left: 380px;
+    top: 40px;
+    color:#fff;
+    font-size: 38px;
+    word-spacing: 5px;
+    font-weight: 900;
+}
+#subhead{
+    position: absolute;
+    width: 450px;
+    height: 50px;
+    margin-right: 0%;
+    padding-right:0px;
+    margin-left: 550px;
+    margin-top: 100px;
+    font-size: 21px;
+    color: aliceblue;
+   
+}
+.searchbar{
+    width: 400px;
+    height: 300px;
+    color: black;
+    background-color: rgb(242, 247, 228);
+    margin-top: 250px;
+    float: left;
+    margin-left:150px;
+    position: absolute;
+    border-radius: 5px;
+    padding-top: 10px;
+    text-align: center;
+}
+.head_search{
+    margin-bottom: 10px;
+}
+.searchbar ul{
+    display: flex;
+    justify-content: space-between;
+    border-left: 0px;
+    padding-right: 40px;
+}
+.searchbar ul li{
+    display: inline;    
+}
+button{
+    background-color: #cddc39;
+    border: 0px;
+    border-radius: 10px;
+}
+.login_button{
+    width: 80px;
+    height: 23px;
+    margin-left: 30px;
+}
+.searchdes{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+.sub{
+    font-weight: normal;
+}
+.textlocation{
+    font-size: 12px;
+    width: 300px;
+}
+.pickup,.drop,.date{
+    width: 380px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: absolute;
+    background-color:  rgb(213, 211, 216);
+    border-radius: 5px;
+}
+
+.lpickup,.ldrop,.ldate{
+    background-color:  rgb(213, 211, 216);
+    position: absolute;
+    width: 80px;
+    height: 29px;
+    text-align: left;
+    padding-top:11px ;
+    padding-left: 10px;
+    color: lightslategray;
+    border-radius: 5px;
+}
+.current_location,.dropin,.enter_date{
+    background-color:  rgb(213, 211, 216);
+    position:absolute;
+    width: 300px;
+    height: 30px;
+    margin-left: 80px;
+    border-radius: 5px;
+    color: black;
+    padding-top: 10px;
+    text-align: left;
+    
+}
+.details_entry h6,p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.details_entry p{
+    font-size: 14px;
+}
+.drop{
+    margin-top: 60px;
+}
+.ldate{
+    background-color: rgb(213, 211, 216);
+    width:60px ;
+}
+.enter_date{
+    width: 300px;
+    margin-left: 75px;
+    padding-top: 5px;
+}
+.dropin{
+    color: lightslategray;
+}
+.date{
+    margin-top: 110px; 
+}
+.enter_date select{
+    width: 280px;
+        border-color: rgb(213, 211, 216);
+        background-color: rgb(213, 211, 216);
+        font-size: 16px;       
+}
+.search_button{
+    margin-top: 160px;
+    height: 40px;
+    margin-left: 10px ;
+    margin-right: 10px;
+}
+#search_button{
+    width: 380px;
+    height: 40px;
+    border-radius: 0%;
+    font-size: 20px;
+    font-family: unset;
+}
+.olas1{
+    background-image: url(img/image/vector.png);
+    width: 1200px;
+    height: 168px;
+    margin-top:720px;
+    margin-left: 160px;
+    position:absolute ;
+    background-color: #ecefcc;
+    display: flex    ;
+    box-shadow: 0 0 8px 0 rgb(0 0 0 / 25%);
+}
+.emi{
+    width: 200px;
+    padding-left: 10px;
+    padding-top: 70px;
+}
+#emi_rs{
+    position: relative;
+    font-size: 13px;
+    color: rgb(103, 108, 108);
+}
+.best_scooter{
+    left: 60px;
+    width: 350px;
+    position: relative;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -3px;
+    color: rgb(41, 41, 41);
+}
+#doorstep,#fleetdes{
+    font-size: 21px;
+    letter-spacing: normal;
+    line-height: 30px;
+    font-weight: 100;
+    color:#4B4D37;
+    font-family: gentona;
+    src: url(https://fontsgeek.com/fonts/gentona);
+}
+.offer_test_ride{
+    background-color: black;
+    color: rgb(189, 198, 20);
+    width: 200px;
+    height: 38px;
+    position: relative;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 50px;
+    padding-top:10px ;
+   margin-left: 70px;
+   text-align: center;
+}
+.secondbody{
+    height:760px;
+    width: 100%;
+    top: 800px;
+    position: absolute;
+    z-index: -1;
+    text-align: left;
+}
+.centerpart{
+    width: 1000px;
+    height: 1000px;
+    position: relative;
+    left: 160px;
+    padding-top: 150px;
+}
+.centerpart h1{
+    font-size: 35px;
+    font-weight: bolder;
+}
+#offertext{
+    color: black;
+    opacity: 0.5;
+}
+.citytaxy,.outstation,.rentals{
+    box-shadow: 0 0 8px 0 rgb(0 0 0 / 25%);
+    width: 360px;
+    height: 500px;
+    margin-top: 50px;
+    text-align: left;
+    position: absolute;
+}
+.car_img img,.ambu_img img,.sedan_img img{
+    width: 360px;
+    height: 200px;
+    position: relative;
+    border-radius: 5px;
+}
+.taxylogo,.ambulancelogo,.sedanlogo{
+    width: 60px;
+    padding: 5px;
+    height: 60px;
+    background-color: #e5ff00;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    margin-top: 155px;
+    left: 270px;
+}
+.citydes,.outstationdes,.rentaldes{
+    width: 320px;
+    height: 300px;
+    position: relative;
+    padding: 10px;    
+}
+.citydes p,.iconlink p,.autodes p,.outstationdes p,.rentals p{
+    font-weight: 100;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    opacity: 0.8;
+    font-family: gentona;
+    src: url(https://fontsgeek.com/fonts/gentona);
+    
+}
+.indiv-item{
+    width: 300px;
+    position: absolute;
+    height:30px;
+    top: 405px;
+    padding: 10px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.indiv-item img,.indiv-item h4{
+    width: 25px;
+    line-height: 15px;
+    font-size: 16px;
+    font-weight: 50px;
+    opacity: 0.8;
+    
+}
+span{
+    display: inline-flex;
+}
+.outstation{
+   position: absolute;
+   left: 420px;
+}
+.rentals{
+   position: absolute;
+   left: 840px;
+}
+.whyola{
+    width: 1200px;
+    height: 1250px;
+    position: relative;
+    left: 158px;
+    top: 500px;
+    padding-top: 80px;
+}
+.whyola,#why{
+    font-weight:bolder;
+    font-size: 37px; 
+    font-family: gentona;
+    src: url(https://fontsgeek.com/fonts/gentona);
+}
+#whydes{
+    font-size: x;
+    color: black;
+    opacity: 0.5;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.piggy,.cab_entertainment,.safe_ride,.cashless_rides{
+    width: 540px;
+    height: 100px;
+    float: left;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.piggy img,.cab_entertainment img,.safe_ride img,.cashless_rides img{
+    width: 170px;
+    height: 100px;
+    border-radius: 5px;
+}
+.piggydes,.piggydes p,.enterdes,.enterdes p,.safedes,.safedes p,.cashlessdes,.cashlessdes p{  
+    float: right;
+    padding-left: 20px;
+    height: 71px;
+    width:340px ;
+    
+}
+.piggydes p,.enterdes p,.safedes p,.cashlessdes p{
+    font-size: 16px;
+    font-weight: lighter;
+     opacity: 0.5; 
+    font-family: gentona;
+    src: url(https://fontsgeek.com/fonts/gentona);
+}
+.cab_entertainment,.cashless_rides{
+    margin-left: 100px;
+}
+#fleet,.autodes h1,.iconlink h1{
+    font-weight: bolder;
+    font-family: gentona;
+    src: url(https://fontsgeek.com/fonts/gentona);
+    font-size: 35px;
+}
+.fleet{
+    width: 1200px;
+    height: 250px;
+    background-color:#fff;
+    margin-top: 400px;
+}
+#fleetdes{
+    font-size: 19px;
+}
+.iconbar{
+    width: 1200px;
+    height: 60px;
+    margin-top: 50px;
+}
+.icon{
+    display: inline-flex;
+    width: 10%;
+    height: 100px;
+    border-radius: 60%;
+}
+.icon img{
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    margin-top:15px;
+}
+#suv{
+    width: 60px;
+   left: 40px;
+   
+}
+.icon img:hover{
+    border-radius: 50%;
+   background-color: #d9ea3f;
+}
+.icon p{
+    position: absolute;
+    font-size: 15px;
+    top: 770px;
+    display: flex;
+    margin-left: 22px;
+}
+#sedan{
+    margin-left: 0px;
+}
+#suvp,#play{
+    margin-left:7px;
+}
+.slider{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    margin-top: 0%;
+    background-color:  #f1f1ee;
+}
+.slider_content{
+    width: 80%px;
+    height: 500px;
+    position:relative;
+    margin-right: 10%;
+   margin-left:10%; 
+} 
+#auto{
+    width: 550px;
+    position: relative;
+    left: 90px;
+    top: 50px;
+}
+.autodes{
+    width: 350px;
+    height: 200px;
+    color: rgb(38, 38, 41);
+    float: right;
+    margin-right: 120px;
+    margin-top: 130px;
+}
+.autodes p,.secdes p{
+    font-weight: lighter;
+    font-size: 16px;
+    opacity: 100%;
+    color: rgb(0, 0, 0);
+    word-spacing: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#leftarrow{
+    right: 578px;
+    top: -120px;
+    position:relative;
+}
+#rightarrow{
+    float: right;
+    position: absolute;
+    right:-40px;
+    top: 220px;
+}
+.bookola{
+    width: 100%;
+    position: relative;
+    height: 400px;
+    background-color: #f1f1ee;  
+}
+.iconlink{
+    width: 500px;
+    height: 300px;
+    background-color:  #f1f1ee;
+    top: 50px;
+    position: absolute;
+    left: 150px;
+}
+.iconlink p{
+    font-size: 18px;
+    font-family: gentona;
+    src: url(https://fontsgeek.com/fonts/gentona);
+    opacity: 100%;
+    color: black;
+}
+.iconlink img{
+    width: 150px;
+    margin-top: 80px;
+    padding-right: 10px;
+}
+#bookolapic{
+    margin-top: 10px;
+    width: 460px;
+    float: right;
+    margin-right: 270px;
+    height: fit-content;
+}
+.threepoints{
+    width: 90.15%;
+    height: 170px;
+    position: relative;
+    box-shadow: black 0 0 10px ;
+    padding-left: 150px;
+    
+}
+.sec{
+    padding-top: 40px;
+    display: inline-flex;
+    width: 33%;
+    justify-content: space-between;
+   
+}
+.sec img{
+    width: 50px;
+    margin-left: 30px;
+    
+}
+.secdes{
+    width: 350px;
+    margin-left: 20px;
+    font-family: gentona;
+    src: url(https://fontsgeek.com/fonts/gentona);
+}
+.set{
+    width: 85%;
+   padding-left: 20px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+footer{
+    width: 100%;
+    height: 740px;
+    background-color:#393939;
+    position: relative;
+    color: #fff;
+    
+}
+.centerfoot{
+    margin-left: 200px;
+    margin-right: 170px;
+    display: flex;
+    flex-direction: column;
+}
+.div{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    display:inline-flex;
+    justify-content: space-between;
+}
+.centerfoot p,.footerlist li,.noticelist li{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    line-height: 30px;
+    font-weight: 300;
+    opacity: .8;
+}
+hr{
+    border-width: 0.1mm;
+}
+#expand{
+    margin-left: 520px;
+}
+.div1 select{
+    position: relative;
+    background-color: transparent;
+    color: #ecefcc;
+    border-width: 3px;
+    border-color: #fff;
+    width: 200px;
+    height: 40px;
+    left: 950px;
+    top: -40px;
+}
+.footicon{
+    width: 300px;
+    margin-top: 15px;
+    position: relative; 
+    left: 220px;
+    display: flex;
+    justify-content: space-between;
+}
+.div1 h4{
+    position:relative;
+    top: 35px;
+}
+.div1 ul,.div1 ul li{
+    display: inline-flex;
+}
+.footerlist{
+    top: 15px;
+    position: relative;
+    width: 650px;
+    left: 170px;
+}
+.footerdes li{
+    padding-left: 45px;
+    font-size: 14px;
+}
+.div1 h5{
+    margin-top: -10px;
+    float: right;
+    font-size: 16px;
+    margin-right: 30px;
+}
+.notice{
+    width: 400px;
+}
+.noticelist{
+    display: inline-flex;
+    float: right;
+}
+.noticelist li{
+    display: flex;
+    padding-left: 40px;
+    font-size: 14px;
+}
+.notice p{
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
